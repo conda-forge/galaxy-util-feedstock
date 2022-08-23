@@ -1,5 +1,5 @@
-{% set version = "21.9.0" %}
-{% set sha256 = "604ab29115f95b5a671c3ee047f12eb10ea77342a8d2aed0c289224694a493ba" %}
+{% set version = "22.1.1" %}
+{% set sha256 = "70c1b79f2d2da64a7402f0dee70b4e4975ce49e14d6fa3a66d2e36f5ceb2bacf" %}
 
 package:
   name: galaxy-util
@@ -12,7 +12,7 @@ source:
 build:
   noarch: python
   number: 0
-  script: "{{ PYTHON }} -m pip install . --no-deps -vv"
+  script: {{ PYTHON }} -m pip install . --no-deps -vv
 
 requirements:
   host:
