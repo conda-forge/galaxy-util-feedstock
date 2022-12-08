@@ -17,22 +17,23 @@ build:
 requirements:
   host:
     - pip
-    - python >=3.6
+    - python >=3.7
   run:
     - bleach
     - boltons
     - docutils
-    - markupsafe
-    - packaging
-    - python >=3.6
+    - importlib_resources
+    - packaging <22
+    - pyparsing
+    - python >=3.7
     - pyyaml
     - requests
     - routes
+    - zipstream-new
+    # extras_require:
     #- dictobj
     - future
     - cheetah3
-    - pycryptodome
-    - zipstream-new
   run_constrained:
     # Disallow installation of conflicting older package.
     - galaxy-lib <0a0
@@ -44,6 +45,7 @@ test:
     - galaxy.util
     - galaxy.util.custom_logging
     - galaxy.util.path
+    - galaxy.util.tool_shed
 
 about:
   home: https://galaxyproject.org
