@@ -1,5 +1,5 @@
-{% set version = "22.1.1" %}
-{% set sha256 = "70c1b79f2d2da64a7402f0dee70b4e4975ce49e14d6fa3a66d2e36f5ceb2bacf" %}
+{% set version = "22.1.2" %}
+{% set sha256 = "80257c94dc9122ebf80d643aa3962fe8beda23dbba8fc4820a0d2b720f479f98" %}
 
 package:
   name: galaxy-util
@@ -17,22 +17,24 @@ build:
 requirements:
   host:
     - pip
-    - python >=3.6
+    - python >=3.7
   run:
     - bleach
     - boltons
     - docutils
-    - markupsafe
-    - packaging
-    - python >=3.6
+    - importlib_resources
+    - packaging <22
+    - pyparsing
+    - python >=3.7
     - pyyaml
     - requests
     - routes
+    - typing_extensions
+    - zipstream-new
+    # extras_require:
     #- dictobj
     - future
     - cheetah3
-    - pycryptodome
-    - zipstream-new
   run_constrained:
     # Disallow installation of conflicting older package.
     - galaxy-lib <0a0
@@ -44,6 +46,7 @@ test:
     - galaxy.util
     - galaxy.util.custom_logging
     - galaxy.util.path
+    - galaxy.util.tool_shed
 
 about:
   home: https://galaxyproject.org
