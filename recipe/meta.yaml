@@ -29,6 +29,7 @@ requirements:
     - pyyaml
     - requests
     - routes
+    - typing_extensions
     - zipstream-new
     # extras_require:
     #- dictobj
