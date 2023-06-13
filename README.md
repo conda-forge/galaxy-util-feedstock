@@ -1,11 +1,11 @@
-About galaxy-util
-=================
+About galaxy-util-feedstock
+===========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/galaxy-util-feedstock/blob/main/LICENSE.txt)
 
 Home: https://galaxyproject.org
 
 Package license: AFL-3.0
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/galaxy-util-feedstock/blob/main/LICENSE.txt)
 
 Summary: Galaxy Generic Utilities
 
