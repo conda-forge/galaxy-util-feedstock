@@ -1,5 +1,5 @@
-{% set version = "23.0.3" %}
-{% set sha256 = "1d08d374c9492057f281ca04c487fc49ee2f42b98ff3b5624735f3be9bdd0538" %}
+{% set version = "23.0.4" %}
+{% set sha256 = "12b8636972b5f7922f4973978cb433b03af17c89abe7264addc3bbbb60e975fc" %}
 
 package:
   name: galaxy-util
