@@ -150,6 +150,3 @@ Feedstock Maintainers
 * [@bgruening](https://github.com/bgruening/)
 * [@nsoranzo](https://github.com/nsoranzo/)
 
-
-<!-- dummy commit to enable rerendering -->
-
