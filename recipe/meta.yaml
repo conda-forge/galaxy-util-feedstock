@@ -33,7 +33,7 @@ requirements:
     - zipstream-new
     # extras_require:
     #- dictobj
-    - future
+    - future >=1.0.0
     - cheetah3
   run_constrained:
     # Disallow installation of conflicting older package.
