@@ -1,12 +1,12 @@
-{% set version = "24.0.0" %}
-{% set sha256 = "00d0e4e0fb71004c7416cca6cb6a7cab2fd63956ac8d3cb4426effbe0c7027fc" %}
+{% set version = "24.0.2" %}
+{% set sha256 = "fa0ba97b873f63b6a5142ea52aa025499c2b91ec298d3fab2003bca8813131a2" %}
 
 package:
   name: galaxy-util
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/g/galaxy-util/galaxy-util-{{ version }}.tar.gz
+  url: https://pypi.io/packages/source/g/galaxy-util/galaxy_util-{{ version }}.tar.gz
   sha256: {{ sha256 }}
 
 build:
