@@ -23,7 +23,7 @@ requirements:
     - bleach
     - boltons
     - docutils
-    - importlib_resources
+    - importlib_resources >=5.10.0
     - packaging
     - pyparsing
     - python >={{ python_min }}
