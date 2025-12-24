@@ -11,7 +11,7 @@ source:
 
 build:
   noarch: python
-  number: 0
+  number: 1
   script: {{ PYTHON }} -m pip install . --no-deps -vv
 
 requirements:
@@ -34,8 +34,9 @@ requirements:
     - zipstream-new
     # extras_require:
     #- dictobj
+    - ct3
+    - fissix
     - future >=1.0.0
-    - cheetah3
   run_constrained:
     # Disallow installation of conflicting older package.
     - galaxy-lib <0a0
@@ -49,6 +50,7 @@ test:
     - galaxy.util
     - galaxy.util.custom_logging
     - galaxy.util.path
+    - galaxy.util.template
     - galaxy.util.tool_shed
 
 about:
