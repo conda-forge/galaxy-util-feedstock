@@ -25,11 +25,10 @@ requirements:
     - docutils
     - importlib_resources >=5.10.0
     - packaging
-    - pyparsing
+    - pyparsing >=3.0.0
     - python >={{ python_min }}
     - pyyaml
     - requests
-    - routes
     - typing_extensions
     - zipstream-new
     # extras_require:
@@ -55,7 +54,7 @@ test:
 
 about:
   home: https://galaxyproject.org
-  license: AFL-3.0
+  license: MIT
   license_file: LICENSE
   summary: Galaxy Generic Utilities
   doc_url: https://docs.galaxyproject.org
