@@ -5,7 +5,7 @@ Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/galaxy-util-fee
 
 Home: https://galaxyproject.org
 
-Package license: AFL-3.0
+Package license: MIT
 
 Summary: Galaxy Generic Utilities
 
@@ -20,7 +20,9 @@ Current build status
 <table><tr>
     <td>All platforms:</td>
     <td>
-      <img src="https://img.shields.io/badge/noarch-disabled-lightgrey.svg" alt="noarch disabled">
+      <a href="https://github.com/conda-forge/galaxy-util-feedstock/actions/workflows/conda-build.yml">
+        <img src="https://github.com/conda-forge/galaxy-util-feedstock/actions/workflows/conda-build.yml/badge.svg?event=push&branch=main">
+      </a>
     </td>
   </tr>
 </table>
